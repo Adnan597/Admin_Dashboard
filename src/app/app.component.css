@@ -1,0 +1,103 @@
+/* styles.css (or styles.scss) */
+/* styles.css (or styles.scss) */
+
+/* Define dark mode classes */
+.dark .dark\:bg-gray-700 {
+    background-color: #374151;
+  }
+  
+  .dark .dark\:bg-gray-800 {
+    background-color: #1f2937;
+  }
+  
+  .dark .dark\:bg-blue-800 {
+    background-color: #2b6cb0;
+  }
+  
+  .dark .dark\:text-white {
+    color: #fff;
+  }
+  
+  .dark .dark-text-color{
+    color: #ffffff;
+  }
+  .dark .dark-buttons{
+    color: #000000;
+    background-color: white;
+  }
+  .light .light-buttons{
+    color: #000000;
+    background-color: white;
+  }
+  
+  /* Apply dark mode classes */
+  .dark {
+    background-color: #1a202c;
+    color: #fff;
+  }
+  .light .light-sidebar {
+    /* Light mode styles */
+    
+    background-color: #dc3445; /* Example background color */
+  }  
+  /* Dark Mode Sidebar */
+  .dark .dark-sidebar {
+    /* Dark mode styles */
+    background-color: #111827; /* Example background color */
+  }
+  
+
+  /* Dark Mode Sidebar */
+  .dark .dark-table_head {
+    /* Dark mode styles */
+    background-color: #4b5563; /* Example background color */
+    color: white;
+  }
+  
+
+ 
+  .dark .dark-card{
+    border-color: #634b4b; 
+  }
+
+    .light .light-effect:hover{
+      background-color: #EF4444
+    }
+    .dark .dark-effect:hover{
+      background-color: rgb(0, 81, 255);
+    }
+      /* Custom style */
+      .header-right {
+          width: calc(100% - 3.5rem);
+      }
+      .sidebar:hover {
+          width: 16rem;
+      }
+       
+       /* ACTIVE MENU CLASSES */
+       .light .light-active {
+        background-color: #c50202; 
+        color: #ffffff; 
+      }
+       .dark .dark-active {
+        background-color: #2c02c5; 
+        color: #ffffff; 
+      }
+      
+
+      .light-theme-btn {
+        background-color: #fa4c5e; 
+        color: #ffffff; 
+      }
+      
+      .dark-theme-btn {
+        background-color: #424447; 
+        color: #fff; 
+      }
+      
+
+      @media only screen and (min-width: 768px) {
+          .header-right {
+              width: calc(100% - 16rem);
+          }        
+      }
